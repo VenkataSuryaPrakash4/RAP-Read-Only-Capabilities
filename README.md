@@ -45,7 +45,7 @@
    * Exposing our application to the outside world through Service Definition and Binding as a V2 or V4 OData service.
   
 > [!IMPORTANT]
-  * The Composition view for the Connection entity is the starting point for this read-only application.  
+> The Composition view for the Connection entity is the starting point for this read-only application.  
 
 
 
