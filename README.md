@@ -17,4 +17,4 @@
 - **Associations & Joins:** In-order to navigate between the entites or Nodes of our read-only application, and make a link between the entities we use Association in this development.
 
 <ins>**Defining CDS Views:**</ins>
-
+- First and Foremost thing, we need to build our application is DDL source
