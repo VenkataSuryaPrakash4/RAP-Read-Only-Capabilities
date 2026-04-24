@@ -1,5 +1,5 @@
 <ins>**Introduction:**</ins>
-- The Application mainly focuses on Read-Only capabilities, but no the transactional Capabilities. In this we will be using the existing data source like database tables for us to mainly focus on building the DDL source and its Read capabilities.
+- The Application mainly focuses on Read-Only capabilities, but not the transactional Capabilities. In this we will be using the existing data source like database tables for us to mainly focus on building the DDL source and its Read capabilities.
 - In the further developments of this application, we will be implementing the following:
   * Define the data model for the OData service
   * Add value helps to the data model
@@ -17,4 +17,10 @@
 - **Associations & Joins:** In-order to navigate between the entites or Nodes of our read-only application, and make a link between the entities we use Association in this development.
 
 <ins>**Defining CDS Views:**</ins>
-- First and Foremost thing, we need to build our application is DDL source
+- First and Foremost requisition we need to build the read-only RAP Application are:
+  * Data Source
+  * DDL Source
+  * Service Definition
+  * Service Binding 
+    
+   
