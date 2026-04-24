@@ -12,4 +12,4 @@
   * The reasosn for doing the above such is to make the application user friendly, where the DDL source will be in association with other       DDL sources for the free flow of navigation by the end-user.
  
 <ins>**Background Information**</ins>
--DDL Source : Since we will be working on read-only application, as a DDL source we will be using the CDS View's as it has capabilities to fetch the data from the data sources.
+- DDL Source : Since we will be working on read-only application, as a DDL source we will be using the CDS View's as it has capabilities to fetch the data from the data sources.
