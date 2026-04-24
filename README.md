@@ -31,6 +31,10 @@
    * Choose the right data source on which the data models has to be built. In our application we were more focused to Connection and          Flight data.
      + Connection Entity : **/DMO/CONNECTION**
      + Flight Entity     : **/DMO/FLIGHT**
+ -**Step-2**
+   * We will need to build an Basic Interface View on top of our Connection and Flight data source.
+     + /DMO/CONNECTION --> Basic Interface View
+     + /DMO/FLIGHT  --> Basic Interface View
   
 
 
