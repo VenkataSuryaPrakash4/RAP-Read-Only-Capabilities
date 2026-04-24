@@ -40,7 +40,7 @@
  - **Step-4**
    * Once the association is done on the Basic-Interface view level, we will bring up the level to Consumption view along with the             associations wheich were done in Basic-Interface View.
  - **Step-5**
-   * Maintain the required annotations in the MDE level.
+   * Maintain the required annotations in the MDE level to beautify your front-end part of the application and to add additional readable      features.
   
 
 
