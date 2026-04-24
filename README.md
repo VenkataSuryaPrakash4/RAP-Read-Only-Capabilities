@@ -26,4 +26,5 @@
   * Basic Interface View : Self Explanatory
   * Consumption View     : Self Explanatory
     
-   
+ <ins>**Development Design**</ins>
+ 
