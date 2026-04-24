@@ -33,8 +33,8 @@
      + Flight Entity     : **/DMO/FLIGHT**
  - **Step-2**
    * We will need to build an Basic Interface View on top of our Connection and Flight data source.
-     + /DMO/CONNECTION  --> Create Basic-Interface View
-     + /DMO/FLIGHT      --> Create Basic-Interface View
+     + /DMO/CONNECTION &emsp;--> Create Basic-Interface View
+     + /DMO/FLIGHT     &emsp;--> Create Basic-Interface View
   
 
 
