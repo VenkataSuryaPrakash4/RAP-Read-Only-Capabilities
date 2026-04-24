@@ -14,3 +14,4 @@
 <ins>**Background Information:**</ins>
 - **DDL Source :** Since we will be working on read-only application, as a DDL source we will be using the CDS View's as it has capabilities to fetch the data from the data sources.
 - **Metadata Extensions :** To make our read-only application beautify to the outside world, we can use annotattions to make the application much more interactive for read capabilities.
+- **Associations & Joins**
