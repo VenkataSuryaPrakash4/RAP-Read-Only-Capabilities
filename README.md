@@ -23,7 +23,7 @@
   * Service Definition
   * Service Binding
 - Coming the layed level application, we will have only 2 layers on top of Data source:
-  * Basic Interface View
+  * Basic Interface View : Self Explanatory
   * Consumption View 
     
    
