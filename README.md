@@ -7,3 +7,5 @@
   * Add search capabilities to the data model.
   
 <ins>**Let's Begin**</ins>
+- Before we begin with developing the application, we will look at How this application looks like:
+  * 
