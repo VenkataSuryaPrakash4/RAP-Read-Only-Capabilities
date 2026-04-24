@@ -34,7 +34,7 @@
  - **Step-2**
    * We will need to build an Basic Interface View on top of our Connection and Flight data source.
      + /DMO/CONNECTION --> Basic Interface View
-     + /DMO/FLIGHT  &empsp --> Basic Interface View
+     + /DMO/FLIGHT     --> Basic Interface View
   
 
 
