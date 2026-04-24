@@ -4,6 +4,6 @@
   * Define the data model for the OData service
   * Add value helps to the data model
   * Use text associations to display texts for elements like ids
-  * Add search capabilities to the data model.</br>
+  * Add search capabilities to the data model.
   
 <ins>**Let's Begin**</ins>
