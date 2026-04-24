@@ -42,7 +42,7 @@
  - **Step-5**
    * Maintain the required annotations in the MDE level to beautify your front-end part of the application and to add additional readable      features.
  - **Step-6**
-   *Exposing our application to the outside world through Service Definition and Binding as a V2 or V4 OData service.
+   * Exposing our application to the outside world through Service Definition and Binding as a V2 or V4 OData service.
   
 
 
