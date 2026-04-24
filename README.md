@@ -52,5 +52,6 @@
 > You never do the same mistake which I have done. Later point of time in huge developments, these naming conventions place a key role in understanding the flow.
 
 :six:<ins>**Association**</ins> 
-- Association's are the On-Demand request by the user. It acts as an Unidirectional navigation from a Source model to target model
+- Association's are the On-Demand request by the user. It acts as an Unidirectional navigation from a Source model to target model.
+- In our read-only application we will be using the assiciation to navigate from Connections node to Flight node, to check What flight are connection.
 
