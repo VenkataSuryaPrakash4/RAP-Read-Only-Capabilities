@@ -15,3 +15,6 @@
 - **DDL Source :** Since we will be working on read-only application, as a DDL source we will be using the CDS View's as it has capabilities to fetch the data from the data sources.
 - **Metadata Extensions :** To make our read-only application beautify to the outside world, we can use annotattions to make the application much more interactive for read capabilities.
 - **Associations & Joins:** In-order to navigate between the entites or Nodes of our read-only application, and make a link between the entities we use Association in this development.
+
+<ins>**Defining CDS Views:**</ins>
+
