@@ -21,6 +21,9 @@
   * Data Source
   * DDL Source
   * Service Definition
-  * Service Binding 
+  * Service Binding
+- Coming the layed level application, we will have only 2 layers on top of Data source:
+  * Basic Interface View
+  * Consumption View 
     
    
