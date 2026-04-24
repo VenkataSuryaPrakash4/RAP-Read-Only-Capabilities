@@ -26,7 +26,7 @@
   * Basic Interface View : Self Explanatory
   * Consumption View     : Self Explanatory
     
- :five:<ins>**Development Design**</ins>
+ :five:<ins>**Design Part of Application**</ins>
  - **Step-1**
    * Choose the right data source on which the data models has to be built. In our application we were more focused to Connection and          Flight data.
      + Connection Entity : **/DMO/CONNECTION**
