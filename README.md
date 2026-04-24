@@ -49,6 +49,7 @@
 
 > [!WARNING]
 > **Basic-Interface View** : ZRO_Connection and ZRO_Flight has named it mistakenly without any _B_ or _I_ in its name. It supposed to       be ZRO_I_Connection and ZRO_I_Flight.
+> You never do the same mistake again. Later point of time in huge developments, these naming conventions place a key role in understanding the flow.
 
 
 
