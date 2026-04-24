@@ -48,7 +48,7 @@
 > The Consumption view for the Connection entity is the starting point for this read-only application.
 
 > [!WARNING]
-> Basic-Interface View : ZRO_Connection and ZRO_Flight. I have made a mistake in naming convention; for both the entities. It supposed to   be ZRO_I_Connection and ZRO_I_Flight.
+> **Basic-Interface View** : ZRO_Connection and ZRO_Flight. I have made a mistake in naming convention; for both the entities. It supposed to   be ZRO_I_Connection and ZRO_I_Flight.
 
 
 
