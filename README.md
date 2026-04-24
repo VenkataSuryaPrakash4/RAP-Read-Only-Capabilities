@@ -35,6 +35,8 @@
    * We will need to build an Basic Interface View on top of our Connection and Flight data source.
      + **/DMO/CONNECTION**&emsp;--> Create Basic-Interface View
      + **/DMO/FLIGHT**&emsp;&emsp;&emsp;&emsp;--> Create Basic-Interface View
+ - **Step-3**
+   * Enable the association between the DDL Source,which will establish a bridge between Connection node and Flight node.
   
 
 
