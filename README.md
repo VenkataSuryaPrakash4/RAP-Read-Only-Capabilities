@@ -39,6 +39,8 @@
    * Enable the association between the DDL Source,which will establish a bridge between Connection node and Flight node.
  - **Step-4**
    * Once the association is done on the Basic-Interface view level, we will bring up the level to Consumption view along with the             associations wheich were done in Basic-Interface View.
+ - **Step-5**
+   * Maintain the required annotations in the MDE level.
   
 
 
