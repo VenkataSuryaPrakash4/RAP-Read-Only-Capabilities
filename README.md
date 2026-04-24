@@ -36,7 +36,7 @@
      + **/DMO/CONNECTION**&emsp;--> Create Basic-Interface View
      + **/DMO/FLIGHT**&emsp;&emsp;&emsp;&emsp;--> Create Basic-Interface View
  - **Step-3**
-   * Enable the association between the DDL Source,which will establish a bridge between Connection node and Flight node.
+   * Enable the association between the DDL Source,which will establish a bridge between Connection node and Flight node to navigate.
  - **Step-4**
    * Once the association is done on the Basic-Interface view level, we will bring up the level to Consumption view along with the             associations wheich were done in Basic-Interface View.
  - **Step-5**
