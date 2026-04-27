@@ -59,4 +59,6 @@
 > The associations on interface and consumption level enable the navigation from the connection overview list page to flight details object page.
 
 :seven:<ins>**Metadata Extension's**</ins>
+- UI information is always specified on the consumption layer of the CDS view stack.
+- To display the data from the data model on the UI, you have to add metadata extensions for the consume and the corresponding UI annotations.
 
