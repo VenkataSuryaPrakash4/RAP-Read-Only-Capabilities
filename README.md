@@ -58,3 +58,5 @@
 > [!TIP]
 > The associations on interface and consumption level enable the navigation from the connection overview list page to flight details object page.
 
+:seven:<ins>**Metadata Extension's**</ins>
+
