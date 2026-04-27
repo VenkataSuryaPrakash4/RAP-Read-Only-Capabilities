@@ -55,3 +55,6 @@
 - Association's are the On-Demand request by the user. It acts as an Unidirectional navigation from a Source model to target model.
 - In our read-only application we will be using the assiciation to navigate from Connections node to Flight node, to check What flight are connection.
 
+> [!TIP]
+> The associations on interface and consumption level enable the navigation from the connection overview list page to flight details object page.
+
