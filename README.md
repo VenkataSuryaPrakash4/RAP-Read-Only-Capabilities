@@ -64,4 +64,4 @@
   annotations.To allow Metadata Extensions allowed for the datamodels to be consumed to display the data, we have to add an annotaion on the Consumption view's as: **@Metadata.allowExtension: True**
 
 :eight:<ins>**UI Annotation's**</ins>
-- There are hell lot of annotations in the RAP development which cannot be discussed in one go. I would recommand you to check it out some of the annotaions [here](https://help.sap.com/docs/abap-cloud/abap-rap/defining-ui-annotations?version=sap_btp). I will discuss about the these UI annotations and will maintain a dedicated repository..
+- There are hell lot of annotations in the RAP development which cannot be discussed in one go. I would recommand you to check it out some of the annotaions [here](https://help.sap.com/docs/abap-cloud/abap-rap/defining-ui-annotations?version=sap_btp). I will discuss about the these UI annotations and will maintain a dedicated repository.
