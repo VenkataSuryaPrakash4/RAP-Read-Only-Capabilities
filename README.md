@@ -60,5 +60,6 @@
 
 :seven:<ins>**Metadata Extension's**</ins>
 - UI information is always specified on the consumption layer of the CDS view stack.
-- To display the data from the data model on the UI, you have to add metadata extensions for the consume and the corresponding UI annotations.
+- To display the data from the data model on the UI, you have to add metadata extensions for the consume and the corresponding UI
+   annotations.
 
