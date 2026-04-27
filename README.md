@@ -63,3 +63,5 @@
 - To display the data from the data model on the UI, you have to add metadata extensions for us to consume and the corresponding UI
   annotations.To allow Metadata Extensions allowed for the datamodels to be consumed to display the data, we have to add an annotaion on the Consumption view's as: **@Metadata.allowExtension: True**
 
+:eight:<ins>**UI Annotation's**</ins>
+
