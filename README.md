@@ -64,4 +64,4 @@
   annotations.To allow Metadata Extensions allowed for the datamodels to be consumed to display the data, we have to add an annotaion on the Consumption view's as: **@Metadata.allowExtension: True**
 
 :eight:<ins>**UI Annotation's**</ins>
-
+![Header Information Type](https://6da5c376-cfa8-4af4-913f-2061aa8356c8.abap-web.ap21.hana.ondemand.com/sap/bc/adt/businessservices/odatav4/feap/C%C2%87u%C2%84C%C2%83%C2%84%C2%89C%C2%83xu%C2%88uHC%C2%87u%C2%84C%C2%8E%C2%86%C2%83s%C2%87%C2%86%C2%8Asv%7D%C2%82x%7D%C2%82%7BC%C2%87%C2%86%C2%8AxC%C2%87u%C2%84C%C2%8E%C2%86%C2%83s%C2%87%C2%86%C2%8ACDDDEC77nfcsWsW%C2%83%C2%82%C2%82yw%C2%88%7D%C2%83%C2%82777777nfcsgfj77DDDE77nfcsgfjsV%5DbX%5Db%5B/flp.html?sap-ui-xx-viewCache=false&sap-ui-language=EN&sap-client=100#app-preview)
