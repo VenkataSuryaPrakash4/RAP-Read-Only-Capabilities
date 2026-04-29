@@ -1,4 +1,5 @@
 @EndUserText.label: 'Read-only application Service definition'
 define service ZRO_SRV {
   expose ZRO_C_Connection;
+  expose ZRO_C_Flight;
 }
