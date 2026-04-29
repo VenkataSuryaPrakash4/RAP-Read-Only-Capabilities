@@ -66,5 +66,5 @@
 :eight:<ins>**UI Annotation's**</ins>
 - There are hell lot of annotations in the RAP development which cannot be discussed in one go. I would recommand you to check it out some of the annotaions [here](https://help.sap.com/docs/abap-cloud/abap-rap/defining-ui-annotations?version=sap_btp). I will discuss about the these UI annotations and will maintain a dedicated repositories.
 
-<ins>**Outcome**</ins>
-- [Application Walk-through](https://github.com/user-attachments/assets/6c97b041-da62-46dc-8b6c-3bd8aa84fd6f)
+<ins>**Application Outcome**</ins>
+- [Application walk through: Navigating from List Page to Object Page](https://github.com/user-attachments/assets/6c97b041-da62-46dc-8b6c-3bd8aa84fd6f)
