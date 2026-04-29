@@ -67,5 +67,5 @@
 - There are hell lot of annotations in the RAP development which cannot be discussed in one go. I would recommand you to check it out some of the annotaions [here](https://help.sap.com/docs/abap-cloud/abap-rap/defining-ui-annotations?version=sap_btp). I will discuss about the these UI annotations and will maintain a dedicated repositories.
 
 💥:<ins>**Application Outcome**</ins>💥:
-- [Application walk through: Navigating from List Page to Object Page](https://github.com/user-attachments/assets/6c97b041-da62-46dc-8b6c-3bd8aa84fd6f)
-- [Application walk through: Search result based on Selection Field Filter](https://github.com/user-attachments/assets/5f17730a-6e63-4f46-a0e7-0e297de4f404)
+- [Application Walk Through: Navigating from List Page to Object Page](https://github.com/user-attachments/assets/6c97b041-da62-46dc-8b6c-3bd8aa84fd6f)
+- [Application Walk Through: Search result based on Adapt Filter](https://github.com/user-attachments/assets/5f17730a-6e63-4f46-a0e7-0e297de4f404)
