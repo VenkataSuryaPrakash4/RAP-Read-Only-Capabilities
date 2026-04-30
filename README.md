@@ -71,7 +71,7 @@
 - For this read-only application, I have enables the F4 for the both the selection fields in the List Page.
   * In order to provide the F4 functionality in the RAP level, we must provide an annotation in the consumption view level:
     + **@Consumption.valuehelpDefinition** must be used to enable the F4 help to its respective field.
-    + For your refernce, please refer to the Consumption view: [src/zro_c_connection.ddls.asddls]
+    + For your refernce, please refer to the [Consumption-view](https://github.com/VenkataSuryaPrakash4/RAP-Read-Only-Capabilities/blob/main/src/zro_c_connection.ddls.asddls) where I have enables the F4 functinality to one of the selection field.
 
 💥<ins>**Application Outcome**</ins>💥:
 - [Application Walk Through: Navigating from List Page to Object Page](https://github.com/user-attachments/assets/6c97b041-da62-46dc-8b6c-3bd8aa84fd6f)
