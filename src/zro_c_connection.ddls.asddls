@@ -57,10 +57,12 @@ define view entity ZRO_C_Connection
       @UI.lineItem: [{ position:30, label: 'Departure Airport Code' }]
       @UI.selectionField: [{ position: 10 }]
       @UI.fieldGroup: [{ position: 10, qualifier: 'Departure_FG' }]
+      @Consumption.valueHelpDefinition: [{ entity:{ name: '/dmo/i_airport_stdvh', element: 'AirportID' }, useForValidation: true }]
       AirportFromId,
       @UI.lineItem: [{ position:40, label:'Arrival Airport Code' }]
       @UI.selectionField: [{ position: 20 }]
       @UI.fieldGroup: [{ position: 10, qualifier: 'Destination_FG' }]
+      @Consumption.valueHelpDefinition: [{ entity:{ name: '/dmo/i_airport_stdvh', element: 'AirportID' }, useForValidation: true }]
       AirportToId,
       @UI.lineItem: [{ position:50, label: 'Departure Time' }]
       @UI.fieldGroup: [{ position: 20, qualifier: 'Departure_FG' }]

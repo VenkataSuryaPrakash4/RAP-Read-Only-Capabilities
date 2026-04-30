@@ -2,4 +2,5 @@
 define service ZRO_SRV {
   expose ZRO_C_Connection;
   expose ZRO_C_Flight;
+  expose /DMO/I_Airport_StdVH;
 }
