@@ -75,10 +75,10 @@
   * As a pre-requisite for the F4 to work on the field:
     + Don't forget to expose your CDS View, which you use it as a referece entity in the **@Consumption.valuehelpDefinition**
 - We can add the serch capabilities to our the CDS Views, In case if you do so; there has to be search scope assigned to atleast one fo the element from the elementary list:
-  * For a CDS View, we assign the annotation: @Search.Searchable: True
-  * For the element of an elementary list we assign with: @Search.defaultsearchElement: True
-  * Alogn with the above, we will assign the Fuzziness for the above choosen element: @Search.fuzzinessThreshold: 0.7
-    + SAP has recommended to maintin the threshold value '0.7' or 70% with a limit of [0,1]
+  * For a CDS View, we assign the annotation: **@Search.Searchable: True**
+  * For the element of an elementary list we assign with:** @Search.defaultsearchElement: True**
+  * Alogn with the above, we will assign the Fuzziness for the above choosen element:** @Search.fuzzinessThreshold: 0.7**
+    + SAP has recommended to maintin the threshold value **'0.7' or 70% with a limit of [0,1]**
 
 💥<ins>**Application Outcome**</ins>💥:
 - [Application Walk Through: Navigating from List Page to Object Page](https://github.com/user-attachments/assets/6c97b041-da62-46dc-8b6c-3bd8aa84fd6f)
