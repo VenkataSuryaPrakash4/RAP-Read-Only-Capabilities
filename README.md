@@ -74,8 +74,8 @@
     + For your refernce, please refer to the [Consumption-view](https://github.com/VenkataSuryaPrakash4/RAP-Read-Only-Capabilities/blob/main/src/zro_c_connection.ddls.asddls) where I have enables the F4 functinality to one of the selection field in the elementary list.
   * As a pre-requisite for the F4 to work on the field:
     + Don't forget to expose your CDS View, which you use it as a referece entity in the **@Consumption.valuehelpDefinition**
-- **Search Capabilities**: We can add the serch capabilities to our the CDS Views, In case if you do so; there has to be search scope assigned to atleast one fo the element from the elementary list:
-  * For a CDS View, we assign the annotation: **@Search.Searchable: True**
+- **Search Capabilities**: We can add the search capabilities to our CDS Views, In case if you do so; there has to be search scope assigned to atleast one fo the element from the elementary list:
+  * For a CDS View, we assign the annotation: **@Search.Searchable: True**. If you dont maintain the below annotaions, and you mentioned only @Search.Searchable: True, this will lead to error on the CDS View.
   * For the element of an elementary list we assign with:** @Search.defaultsearchElement: True**
   * Alogn with the above, we will assign the Fuzziness for the above choosen element:** @Search.fuzzinessThreshold: 0.7**
     + SAP has recommended to maintin the threshold value **'0.7' or 70% with a limit of [0,1]**
