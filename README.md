@@ -68,7 +68,7 @@
 
 :nine:<ins>**Improving User Experience On Read-Only Application**</ins>
 - To make it much more easier to the end-users while assigning the values to the selection field's, we can provide the functioanlities like autosuggest the values or F4-Help or Drop-down.
-- For this read-only application, I have enables the F4 for the both the selection fields in the List Page.
+- **F4-Functionality**: For this read-only application, I have enables the F4 for the both the selection fields in the List Page.
   * In order to provide the F4 functionality in the RAP level, we must provide an annotation in the consumption view level:
     + **@Consumption.valuehelpDefinition** must be used to enable the F4 help to its respective field.
     + For your refernce, please refer to the [Consumption-view](https://github.com/VenkataSuryaPrakash4/RAP-Read-Only-Capabilities/blob/main/src/zro_c_connection.ddls.asddls) where I have enables the F4 functinality to one of the selection field in the elementary list.
