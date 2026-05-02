@@ -67,7 +67,7 @@
 - There are hell lot of annotations in the RAP development which cannot be discussed in one go. I would recommand you to check it out some of the annotaions [here](https://help.sap.com/docs/abap-cloud/abap-rap/defining-ui-annotations?version=sap_btp). I will discuss about the these UI annotations and will maintain a dedicated repositories.
 
 :nine:<ins>**Improving User Experience On Read-Only Application**</ins>
-- To make it much more easier to the end-users while assigning the values to the selection field's, we can provide the functioanlities like autosuggest the values or F4-Help or Drop-down.
+- To make it much more easier to the end-users while assigning the values to the selection field's, we can provide the functioanlities like autosuggest the values or F4-Help or Drop-down.<br><br>
 - **F4-Functionality**: For this read-only application, I have enables the F4 for the both the selection fields in the List Page.
   * In order to provide the F4 functionality in the RAP level, we must provide an annotation in the consumption view level:
     + **@Consumption.valuehelpDefinition** must be used to enable the F4 help to its respective field.
