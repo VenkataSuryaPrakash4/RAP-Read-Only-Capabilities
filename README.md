@@ -79,3 +79,4 @@
 - [Application Walk Through: Navigating from List Page to Object Page](https://github.com/user-attachments/assets/6c97b041-da62-46dc-8b6c-3bd8aa84fd6f)
 - [Application Walk Through: Search result based on Adapt Filter](https://github.com/user-attachments/assets/5f17730a-6e63-4f46-a0e7-0e297de4f404)
 - [Application Walk Through: Enabling Value help for Selection fields](https://github.com/user-attachments/assets/3ba9f363-7206-43dc-b446-0af2296ea0a7)
+- [Application Walk Through: Text Association In List and Object page](https://github.com/user-attachments/assets/ec2a866c-4a74-4f92-8c68-ddea37781a7d)
