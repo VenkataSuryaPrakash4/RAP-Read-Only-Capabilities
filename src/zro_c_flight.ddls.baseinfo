@@ -6,7 +6,9 @@
 "ZRO_FLIGHT"
 ],
 "ASSOCIATED":
-[],
+[
+"/DMO/I_CARRIER"
+],
 "BASE":
 [],
 "ANNO_REF":

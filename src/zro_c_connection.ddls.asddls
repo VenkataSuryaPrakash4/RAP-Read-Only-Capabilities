@@ -6,10 +6,14 @@
 @UI: { headerInfo: { typeName: 'Connection',
                      typeNamePlural: 'Connections'},
        presentationVariant: [{ visualizations: [{ type: #AS_LINEITEM }] }]}
+
+@Search.searchable: true
 define view entity ZRO_C_Connection
   as select from ZRO_Connection
-  association [1..*] to ZRO_C_Flight as _Flight on  $projection.CarrierId    = _Flight.CarrierId
-                                                and $projection.ConnectionId = _Flight.ConnectionId
+  association [1..*] to ZRO_C_Flight   as _Flight  on  $projection.CarrierId    = _Flight.CarrierId
+                                                   and $projection.ConnectionId = _Flight.ConnectionId
+  association [1]    to /DMO/I_Carrier as _Carrier on  $projection.CarrierId = _Carrier.AirlineID
+  association [1]    to /DMO/I_Airport as _Airline on  $projection.AirportFromId = _Airline.AirportID
 {
       @UI.facet: [ { id:'Connection',
                       purpose: #STANDARD,
@@ -50,19 +54,29 @@ define view entity ZRO_C_Connection
 
       @UI.lineItem: [{ position: 10, label: 'Carrier Id' }]
       @UI.fieldGroup: [{ position: 10, qualifier: 'General_FG' }]
+      @Search.defaultSearchElement: true
+      @Search.fuzzinessThreshold: 0.7
+      @ObjectModel.text.association: '_Carrier'
   key CarrierId,
       @UI.lineItem: [{ position: 20, label: 'Connection Id' }]
       @UI.fieldGroup: [{ position: 20, qualifier: 'General_FG' }]
+      @Search.defaultSearchElement: true
+      @Search.fuzzinessThreshold: 0.7
   key ConnectionId,
       @UI.lineItem: [{ position:30, label: 'Departure Airport Code' }]
       @UI.selectionField: [{ position: 10 }]
       @UI.fieldGroup: [{ position: 10, qualifier: 'Departure_FG' }]
       @Consumption.valueHelpDefinition: [{ entity:{ name: '/dmo/i_airport_stdvh', element: 'AirportID' }, useForValidation: true }]
+      @Search.defaultSearchElement: true
+      @Search.fuzzinessThreshold: 0.7
+      @ObjectModel.text.association: '_Airline'
       AirportFromId,
       @UI.lineItem: [{ position:40, label:'Arrival Airport Code' }]
       @UI.selectionField: [{ position: 20 }]
       @UI.fieldGroup: [{ position: 10, qualifier: 'Destination_FG' }]
       @Consumption.valueHelpDefinition: [{ entity:{ name: '/dmo/i_airport_stdvh', element: 'AirportID' }, useForValidation: true }]
+      @Search.defaultSearchElement: true
+      @Search.fuzzinessThreshold: 0.7
       AirportToId,
       @UI.lineItem: [{ position:50, label: 'Departure Time' }]
       @UI.fieldGroup: [{ position: 20, qualifier: 'Departure_FG' }]
@@ -77,5 +91,8 @@ define view entity ZRO_C_Connection
       @UI.fieldGroup: [{ position: 90, qualifier: 'General_FG' }]
       DistanceUnit,
       /* Associations */
-      _Flight
+      @Search.defaultSearchElement: true
+      _Flight,
+      _Carrier,
+      _Airline
 }
